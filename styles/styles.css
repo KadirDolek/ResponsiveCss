@@ -1,0 +1,27 @@
+
+body{
+    margin: 0;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+.secHeader{
+    display: flex;
+    justify-content: space-around;
+    height: 12.5vh;
+    width: 100vw;
+    background-color: rgb(44, 62, 80);
+    color: white;
+    align-items: center;
+}
+.divHeader{
+    display: flex;
+    gap: 2vw;
+}
+.divHeader0{
+    font-size: 3vh;
+    font-weight: bold;
+}
+.divHeader>p{
+    font-size: 2vh;
+    font-weight: bold;
+}
