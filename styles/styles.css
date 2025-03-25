@@ -57,12 +57,25 @@ body{
 }
 .secPortfolio{
     height: 80vh;
-    display: flex;
 }
 .imgPort1{
-    height: 20vh;
-    width: 10vw;
+    height: 26vh;
+    width: 17vw;
+    border-radius: 5px;
 }
-.imgPortfolio{
- 
+.portfolio{
+    display: flex;
+    justify-content: center;
+}
+.portfolio>p{
+    font-size: 5vh;
+    font-weight: 600;
+    margin-top: 7vh;
+    margin-bottom: 1.5vh;
+}
+.imgPortfolio, .imgPortfolio1{
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    margin-bottom: 3.5vh;
 }
