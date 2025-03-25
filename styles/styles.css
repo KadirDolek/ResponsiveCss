@@ -1,4 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sofia&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 body{
     margin: 0;
     font-family: 'Montserrat';
@@ -35,6 +40,7 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    font-weight: bold;
 }
 .avatar{
     height: 30vh;
@@ -54,6 +60,8 @@ body{
 .secRouge1>p:nth-child(3){
     margin-top: 0;
     font-weight: 500;
+    font-size: 2.8vh;
+    font-family: 'Lato';
 }
 .secPortfolio{
     height: 80vh;
@@ -67,7 +75,7 @@ body{
     display: flex;
     justify-content: center;
 }
-.portfolio>p{
+.portfolio>p,.secRouge2>p{
     font-size: 5vh;
     font-weight: 600;
     margin-top: 7vh;
@@ -78,4 +86,19 @@ body{
     justify-content: center;
     gap: 2vw;
     margin-bottom: 3.5vh;
+}
+.sectionRouge2{
+    height: 50vh;
+    background-color: rgb(220, 53, 69);
+}
+.secRouge2{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.pgRouge{
+    display: flex;
+}
+.pg1Rouge, .pg2Rouge{
+    width: 50%;
 }
