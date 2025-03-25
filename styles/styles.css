@@ -8,7 +8,7 @@ body{
     display: flex;
     justify-content: space-around;
     height: 12.5vh;
-    width: 100vw;
+    width: 99.2vw;
     background-color: rgb(44, 62, 80);
     color: white;
     align-items: center;
@@ -24,4 +24,45 @@ body{
 .divHeader>p{
     font-size: 2vh;
     font-weight: bold;
+}
+.sectionRouge1{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(218, 53, 68);
+    height: 70vh;
+}
+.secRouge1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.avatar{
+    height: 30vh;
+    width: 30vw;
+}
+.secRouge1>p{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.secRouge1>p:nth-child(2){
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 1vh;
+    margin-top: 4vh;
+}
+.secRouge1>p:nth-child(3){
+    margin-top: 0;
+    font-weight: 500;
+}
+.secPortfolio{
+    height: 80vh;
+    display: flex;
+}
+.imgPort1{
+    height: 20vh;
+    width: 10vw;
+}
+.imgPortfolio{
+ 
 }
