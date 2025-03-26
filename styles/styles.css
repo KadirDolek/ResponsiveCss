@@ -439,7 +439,6 @@ textarea {
         right: 25px;
         font-size: 36px;
     }
-      
     .burger-icon span {
         display: block;
         width: 35px;
@@ -451,7 +450,6 @@ textarea {
     .burger-icon span:hover{
         transform: scale(2.05);
         animation: bounce 0.5s infinite ease;
-        
     }
     @keyframes glow {
         from {
