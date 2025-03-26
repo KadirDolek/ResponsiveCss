@@ -419,17 +419,14 @@ textarea {
         padding-top: 60px;
         transition: left 0.5s ease;
       }
-
     .divHeader p:hover {
         color: #111;
-
     }
     .divHeader ul {
         list-style-type: none;
         padding: 0;
         margin: 0;
     }
-      
     .divHeader.active {
         left: 0;
     }
@@ -459,7 +456,6 @@ textarea {
           box-shadow: 0 0 20px #695e5e, 0 0 30px #ff4da6, 0 0 40px #3826e2, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #4dff65, 0 0 80px #ff4da6;
         }
       }
-    
     @keyframes bounce {
         70% { transform:translateY(0%); }
         80% { transform:translateY(-30%); }
