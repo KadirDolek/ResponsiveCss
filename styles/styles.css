@@ -69,8 +69,7 @@ body{
           translate: 0 0;
           scale: 100% 1;
         }
-      }
-      
+      }   
 .secRouge1>p{
     display: flex;
     justify-content: center;
@@ -362,7 +361,7 @@ textarea {
         font-weight: bold;
     }
     .divHeader0{
-        font-size:1.7vh;
+        font-size:2.7vh;
     }
     .secRouge1{
         display: flex;
@@ -495,4 +494,7 @@ textarea {
           transform: scale(1, 1);
         }
       }
+      .secRouge1>p:nth-child(2){
+        font-size: 40px;
+    }
 }
