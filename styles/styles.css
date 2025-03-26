@@ -165,3 +165,35 @@ textarea {
     font-size: 2vh;
     margin-top: 3vh;
 }
+footer{
+    height: 35.5vh;
+    background-color: rgb(44, 62, 80);
+}
+.secFooter{
+    display: flex;
+    justify-content: space-between;
+}
+.divFooter1, .divFooter2, .divFooter3{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2vh;
+    line-height: 4vh;
+}
+.titreFooter{
+    font-size: 2.5vh;
+    font-weight: bold;
+}
+.startBootstrap{
+    color: rgb(41, 201, 187);
+    margin-top: -1.5vh;
+}
+.divFooter1{
+    padding-top: 2.4vh;
+}
+.divFooter3{
+    padding-top: 3.5vh;
+}
