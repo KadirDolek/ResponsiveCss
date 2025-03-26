@@ -84,7 +84,7 @@ body{
     margin-bottom: 3.5vh;
 }
 .sectionRouge2{
-    height: 50vh;
+    height: auto;
     background-color: rgb(220, 53, 69);
 }
 .secRouge2{
@@ -116,7 +116,6 @@ body{
 
 .form {
     padding: 20px;
-    width: 27.2vw;
     text-align: center;
 }
 .formulaire {
@@ -161,14 +160,12 @@ textarea {
     margin-top: 3vh;
 }
 .secFooter{
-    height: 35.5vh;
-    background-color: rgb(44, 62, 80);
-}
-.secFooter{
     display: flex;
     justify-content: space-evenly;
     padding-left: 20vw;
     padding-right: 20vw;
+    height: auto;
+    background-color: rgb(44, 62, 80);
 }
 .divFooter1, .divFooter2, .divFooter3{
     width: 33%;
@@ -361,8 +358,28 @@ textarea {
         }
     
     .pg1Rouge>p, .pg2Rouge>p{
-        font-size: 1.127vh;
+        font-size: 1.3vh;
         line-height: 2;
     }
-    
+    .formulaire{
+        font-size: 2.7vh;
+    }
+    .motForm{
+        font-size: 2vh;
+    }
+    .secFooter{
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 20vw;
+        padding-right: 20vw;
+        height: auto;
+        align-items: center;
+        flex-direction: column;
+    }
+    .btn{
+        display: flex;
+        justify-content: center ;
+        align-items: center;
+        align-self: center;
+    }
 }
