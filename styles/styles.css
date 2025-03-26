@@ -55,6 +55,22 @@ body{
     height: 30vh;
     width: 30vw;
 }
+.avatar {
+        animation: slide-in 3s infinite ease;
+      }
+      
+      @keyframes slide-in {
+        from {
+          translate: 150vw 0;
+          scale: 200% 1;
+        }
+      
+        to {
+          translate: 0 0;
+          scale: 100% 1;
+        }
+      }
+      
 .secRouge1>p{
     display: flex;
     justify-content: center;
@@ -455,4 +471,21 @@ textarea {
         99% { transform:translateY(-17%); }
         100% { transform:translateY(0); }
     }
+    .avatar {
+        animation-duration: 3s;
+        animation-name: slide-in;
+      }
+      
+      @keyframes slide-in {
+        from {
+          translate: 150vw 0;
+          scale: 200% 1;
+        }
+      
+        to {
+          translate: 0 0;
+          scale: 100% 1;
+        }
+      }
+      
 }
