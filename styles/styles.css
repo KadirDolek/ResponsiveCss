@@ -98,7 +98,70 @@ body{
 }
 .pgRouge{
     display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 2vw;
+    line-height: 2.9vh;
 }
 .pg1Rouge, .pg2Rouge{
-    width: 50%;
+    width: 19%;
+}
+.pg1Rouge>p, .pg2Rouge>p{
+    font-size: 2vh;
+    color: white;;
+}
+
+.section3Rouge{
+    display: flex;
+    height: 115vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    padding: 20px;
+    width: 27.2vw;
+    text-align: center;
+}
+.formulaire {
+    font-size: 5vh;
+    font-weight: bold;
+    color: #2c3f50;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+label {
+    text-align: left;
+    font-size: 2.4vh;
+    color: #6e7983;
+    font-weight: 470;
+}
+input, textarea {
+    width: 130%;
+    padding: 6px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 2.5vh;
+    margin-bottom: 3vh;
+}
+textarea {
+    resize: none;
+}
+.btn {
+    background-color:rgb(217, 83, 79);
+    color: white;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100px;
+    font-size: 2vh;
+    margin-top: 3vh;
 }
