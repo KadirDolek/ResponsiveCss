@@ -163,7 +163,7 @@ label {
     font-weight: 470;
 }
 input, textarea {
-    width: 130%;
+    width: auto;
     padding: 0px;
     border: none;
     border-bottom: 1px solid #ccc;
@@ -247,6 +247,9 @@ textarea {
     font-weight: 300;
 }
 @media (min-width:576px) and (max-width:1024px){
+    body{
+        overflow-x: hidden
+    };
     .secHeader{
         flex-wrap: wrap;
         justify-content: space-around;
