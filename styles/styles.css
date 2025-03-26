@@ -5,15 +5,14 @@
     font-style: normal;
   }
 body{
-    margin: 0;
     font-family: 'Montserrat';
     font-weight: 500;
+    margin: 0;
 }
 .secHeader{
     display: flex;
     justify-content: space-around;
     height: 12.5vh;
-    width: 99.2vw;
     background-color: rgb(44, 62, 80);
     color: white;
     align-items: center;
@@ -63,9 +62,6 @@ body{
     font-size: 2.8vh;
     font-family: 'Lato';
 }
-.secPortfolio{
-    height: 80vh;
-}
 .imgPort1{
     height: 26%;
     width: 17%;
@@ -114,7 +110,6 @@ body{
 .section3Rouge{
     display: flex;
     height: 130vh;
-    width: 100vw;
     justify-content: center;
     align-items: center;
 }
@@ -228,12 +223,11 @@ textarea {
     font-size: 1.5vh;
     font-weight: 300;
 }
-@media (min-width:600px) and (max-width:1024px){
+@media (min-width:576px) and (max-width:1024px){
     .secHeader{
         flex-wrap: wrap;
         justify-content: space-around;
         height: 7vh;
-        width: 99.2vw;
         background-color: rgb(44, 62, 80);
         color: white;
         align-items: center;
@@ -330,4 +324,45 @@ textarea {
     .section3Rouge{
         height: 115vh;
     }
+}
+@media (max-width:576px) {
+    .secHeader{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        height: 7vh;
+        background-color: rgb(44, 62, 80);
+        color: white;
+        align-items: center;
+    }
+    .divHeader>p{
+        font-size: 1vh;
+        font-weight: bold;
+    }
+    .divHeader0{
+        font-size:1.7vh;
+    }
+    .secRouge1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-weight: bold;
+        }
+    .imgPortfolio, .imgPortfolio1{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+        margin-bottom: 3.5vh;
+        }
+    .secPortfolio{
+        height: 20%;
+        }
+    
+    .pg1Rouge>p, .pg2Rouge>p{
+        font-size: 1.127vh;
+        line-height: 2;
+    }
+    
 }
